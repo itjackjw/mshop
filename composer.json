@@ -3,10 +3,29 @@
   "description": "description_text",
   "minimum-stability": "stable",
   "license": "Apache-2.0",
+  "version": "1.1.7",
   "authors": [
     {
-      "name": "author's name",
-      "email": "email@example.com"
+      "name": "itjack",
+      "email": "1092428238@qq.com"
     }
-  ]
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "topthink/think-helper": ">=1.0.4",
+    "topthink/think-installer": ">=1.0.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "think\\": "src/"
+    },
+    "files": [
+      "src/common.php"
+    ]
+  },
+  "extra": {
+    "think-config": {
+      "addons": "src/config.php"
+    }
+  }
 }
