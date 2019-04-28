@@ -1,7 +1,7 @@
 {
   "name": "itjackjw/mshop",
   "description": "description_text",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "license": "Apache-2.0",
   "version": "1.1.7",
   "authors": [
@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "think\\": "src/"
+      "itjack\\myshop\\": "src/"
     },
     "files": [
       "src/common.php"
